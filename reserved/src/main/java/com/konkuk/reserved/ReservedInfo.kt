@@ -1,4 +1,4 @@
-package com.konkuk.reserve
+package com.konkuk.reserved
 
 data class ReservedInfo(
     val pid: String,
