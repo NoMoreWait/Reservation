@@ -46,7 +46,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.findByName('release')
 
-                groupId = 'com.konkuk.nomorewait'
+                groupId = 'com.github.NoMoreWait'
                 artifactId = 'reservation'
                 version = '1.0.0'
             }
@@ -54,7 +54,7 @@ afterEvaluate {
             debug(MavenPublication) {
                 from components.findByName('debug')
 
-                groupId = 'com.konkuk.nomorewait'
+                groupId = 'com.github.NoMoreWait'
                 artifactId = 'reservation'
                 version = '1.0.0'
             }
